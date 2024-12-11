@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 23767936
-API_HASH = "f1035f2acf4721cbcf600bcd7cbb20e7"
+API_ID = 20414419
+API_HASH = "8b6a197bf7283e9583fe8c1f43b16a75"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8019810434:AAEb_XriAdLK6ap48E_5VuR9UYxQBHQTrCo"
+BOT_TOKEN = "7313884184:AAGRx3PHlD03WmpayUnMtKz7efPlz-cVThY"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://adarshpal923592:       
@@ -20,10 +20,10 @@ adarshpal923592@cluster0.igt0e.mongodb.net/?retryWrites=true&w=majority&appName=
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002291269681
+LOG_GROUP_ID = -1002347786450
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = 7591524647
+OWNER_ID = 8044553078
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,8 +40,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/THE_FRIENDS_HUB_GROUP"
-SUPPORT_GROUP = "https://t.me/THE_FRIENDS_HUB_GROUP"
+SUPPORT_CHANNEL = "https://t.me/Sapphire_network"
+SUPPORT_GROUP = "https://t.me/the_epic_sapphire"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -63,7 +63,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQFqq4AAFJ4f5-sTj5x9Zq68Qzjxvgxs5Lmme2ZrdNcWMfOYH3ea04mhtribGtN2dp3EURzxyTQ-HLTQ_Om-Kbzb781eLmfDL1-yjdf-DgemvxaCJuIG_gM30kMPXaBKTGe6rwICh9wl0jkODXNwTjFP1RnJSBn0u1UdP_Hoj5eufTK-w36aug_hIOeVlBi423uAUCjW6PTio9Z0v0eZQktWyaDUbWE4CRcvXVgTpMONqn7i1Cv8-ExY7YNWQG7UraJsXhmoxOfB_W5OqIMDrZ99HeBb_mL6dEplecHVo2MmM9UM3gAkKEn4fy7HgQ4E5HeLIZHqDRy6igBlyu_od4Ygu2-E3QAAAAHEfXknAA"
+STRING1 = "BQFqq4AAFJ4f5-BQE3f9MAIAmsdgRfLLZ3NdARUx6Bt6ngNL_veG0cgEYOT1KADd5l6SnaL22QrEXpPTKPOBtaVxKXMD0QWvtzojGrF2kO68c56HodXRwV89Y-SQTV4dmAh1G5CosjxZc2NX5em_wRLhQ6t4sDjwacknExg45EMpyj9NMrYAzgOLoJ21I11jOzxzvi5HzpXqtzJjWTZr1ELl1-DIfqF3Rrqs2Kd5p32ahN2R6BTAsQKFJo7LvXYExb7c0GSIX3CoS7E3du40MrvGhnw93slqbUGdCvEkPhnXHtpHeaZo131r_6Yr9J4QxPkUhFJV67pciTEH7pbkgDWb-rAaUwXANNsIKzBNOLXQAAAAHASGZsAA-HLTQ_Om-Kbzb781eLmfDL1-yjdf-DgemvxaCJuIG_gM30kMPXaBKTGe6rwICh9wl0jkODXNwTjFP1RnJSBn0u1UdP_Hoj5eufTK-w36aug_hIOeVlBi423uAUCjW6PTio9Z0v0eZQktWyaDUbWE4CRcvXVgTpMONqn7i1Cv8-ExY7YNWQG7UraJsXhmoxOfB_W5OqIMDrZ99HeBb_mL6dEplecHVo2MmM9UM3gAkKEn4fy7HgQ4E5HeLIZHqDRy6igBlyu_od4Ygu2-E3QAAAAHEfXknAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
